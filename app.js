@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'client', 'build')))
 // Sanitize against NoSQL query injections
 app.use(mongoSanitize())
 
-// Setting up a route for our API
+
 app.get('/api/', (req, res) => {
     return res.status(200).json({
         status: "success"
