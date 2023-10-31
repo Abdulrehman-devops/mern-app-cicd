@@ -27,9 +27,9 @@ app.get('/api/', (req, res) => {
 })
 
 // Redirect back to index.html if urls do not match
-//app.get("*", (req, res) => {
-  //  res.sendFile(path.join(__dirname, "client/build", "index.html"))
-//})
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client/build", "index.html"))
+})
 
 // Database
 // mongoose
