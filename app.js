@@ -31,22 +31,7 @@ app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "client/build", "index.html"))
 })
 
-// Database
-// mongoose
-//     .connect(db, {
-//         useNewUrlParser: true,
-//         useCreateIndex: true,
-//         useFindAndModify: false,
-//         useUnifiedTopology: true,
-//     })
-//     .then(() => {
-//         console.log("Database is connected.")
-//     })
-//     .catch((err) => {
-//         console.log("Database connection was unsuccessful.")
-//         console.log(err)
-//         process.exit(1)
-//     })
+
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`)
