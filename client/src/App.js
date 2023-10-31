@@ -36,8 +36,7 @@ function App() {
           rel="noopener noreferrer"
         >
         </a>
-        <h1>The API call is...</h1>
-          <h2>sucess</h2>
+        <h1>The API call is success :) </h1>
       </header>
     </div>
   );
