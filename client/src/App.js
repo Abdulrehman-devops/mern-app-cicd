@@ -15,7 +15,7 @@ function App() {
                     setResponse("a Success!!!")
                 }
             } catch (err) {
-                setResponse("success")
+                setResponse("Oops, something went wrong...")
             }
         }
         checkAPIRoute()
