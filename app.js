@@ -24,7 +24,7 @@ app.use(mongoSanitize())
   //  return res.status(200).json({
     //    status: "success"
     //})
-})
+//})
 
 // Redirect back to index.html if urls do not match
 app.get("*", (req, res) => {
